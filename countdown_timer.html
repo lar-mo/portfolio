@@ -78,15 +78,22 @@
       ul {
         padding: 0;
       }
+      #notice {
+        font-style: italic;
+        text-decoration: underline;
+      }
     </style>
   </head>
   <body>
     <div id="lab_instructions">
       <h1>JS Lab 06: Countdown Timer</h1>
+      <div id="notice">
+        Note: Best viewed in Chrome
+      </div>
       <div>Next make a countdown timer. The countdown timer should have a text input for the time, and a drop-down list for the units (seconds, minutes, hours). Set an interval which will start a <span class="monospace">date</span> at the given time, and decrement the seconds each second. The countdown timer should alert the user when it's finished (using an <span class="monospace">alert("time's up")</span> or changing the background color, etc).
       </div>
       <div id="version_info">
-        <span><b>v4: Changing form elements states while timer is running or paused</b></span>
+        <b>v4: Changing form elements states while timer is running or paused</b>
       </div>
     </div>
     <div id="app">
